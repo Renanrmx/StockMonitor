@@ -29,18 +29,18 @@ Admin não implementado
 # Utilização
 
 * A API poderá ser consumida como no exemplo: 
-```http://localhost:8000/api/exchange?source=USD&to=BRL&amount=105.30``` seguindo o padrão US de separação com ponto ao invés de virgula
+```http://localhost:8000/api/exchange?source=USD&to=BRL&amount=105.30``` seguindo o padrão US de separação com ponto ao invés de vírgula
 
 * Documentação dinâmica: 
 ```http://localhost:8000/api/docs#/default/CurrencyExchange_api_exchange```
 
 ---
 
-Obs 1: Valores podem variar um pouco ao comparar entre sistemas por conta de delay proposital
+Obs 1: Valores podem variar um pouco ao comparar entre sistemas por conta de delay proposital.
 
-Obs 2: Numero resultante em string para não perder precisão
+Obs 2: Número resultante em string para não perder precisão.
 
 ---
 
-Até o momento está limitado ais seguintes moedas:
+Até o momento está limitado às seguintes moedas:
 ```USD, BRL, EUR, BTC, ETH```
